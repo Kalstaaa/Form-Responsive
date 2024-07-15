@@ -167,3 +167,60 @@ form .title {
     font-size: 15px;
     color: #3FA2F6;
 }
+
+
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        width: 90%;
+        height: 70%;
+        background-image: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .content, form {
+        width: 100%;
+    }
+
+    .content-text h1 {
+        font-size: 2.5rem;
+        letter-spacing: 5px;
+    }
+
+    .content-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .form-input input {
+        width: 80%;
+    }
+
+    .btn button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-text h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .content-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .content-text p {
+        font-size: 0.9rem;
+    }
+
+    .form-input input {
+        width: 90%;
+    }
+
+    .btn button {
+        width: 90%;
+    }
+}
